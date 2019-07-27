@@ -1,23 +1,31 @@
 .firstsection{
     /* text-align: center; */
-    height:100vh;
+    height:150vh;
     padding: 15em;
+    background-image: url("abshd.jpg");
+
+
+    
+   
+   
+    
+
 }
 
 .secondsection{
  /* text-align: center; */
  height:100vh;
  padding: 15em;
- 
+ background-image: url("abs4.jpg");
  
  
 }
 
 .thirdsection{
     /* text-align: center; */
-    height:200vh;
+    height:150vh;
     padding: 15em;
-   
+    background-image: url("abs6.jpg");
    }
 
    html {
@@ -34,4 +42,32 @@
 
   .headerFont2{
     font-family: 'Press Start 2P', cursive;
+    color: pink
   }
+
+  @import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono&display=swap');
+
+.brand-logo{
+font-family: 'Ubuntu Mono', monospace;
+}
+
+.mercedes{
+  
+  height:30vh;
+  border-radius: 50%
+}
+
+@import url('https://fonts.googleapis.com/css?family=B612+Mono|Ubuntu+Mono&display=swap');
+
+.mitsubishi{
+  font-family: 'B612 Mono', monospace;
+
+}
+
+.toyota{
+  height:50vh
+}
+
+.audi{
+  height:75vh
+}
